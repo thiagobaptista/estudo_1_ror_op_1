@@ -14,6 +14,9 @@ end
 group :development, :test do
     gem 'capybara'
     gem 'database_cleaner'
-    gem 'cucumber-rails'
     gem 'rspec-rails'
+end
+
+group :test do
+	gem 'cucumber-rails'
 end
