@@ -15,8 +15,11 @@ group :development, :test do
     gem 'capybara'
     gem 'database_cleaner'
     gem 'rspec-rails'
+    gem 'simplecov', '>= 0.3.2'
 end
 
 group :test do
 	gem 'cucumber-rails'
 end
+
+gem "mocha", :group => :test
