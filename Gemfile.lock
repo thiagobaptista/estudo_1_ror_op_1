@@ -167,7 +167,7 @@ DEPENDENCIES
   nifty-generators
   pg
   rails (= 3.2.2)
-  rspec-rails
+  rspec-rails (~> 2.6)
   sass-rails (~> 3.2.3)
   simplecov (>= 0.3.2)
   uglifier (>= 1.0.3)

@@ -14,7 +14,7 @@ end
 group :development, :test do
     gem 'capybara'
     gem 'database_cleaner'
-    gem 'rspec-rails'
+    gem 'rspec-rails', '~> 2.6'
     gem 'simplecov', '>= 0.3.2'
 end
 
