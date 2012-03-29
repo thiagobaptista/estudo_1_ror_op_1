@@ -1,7 +1,7 @@
 class Carro < ActiveRecord::Base
-	validates_inclusion_of :prioridade, :in => 1..10
+	#validates_inclusion_of :prioridade, :in => 1..10
 
-	attr_accessor :prioridade
+	#attr_accessor :prioridade
 
 	def novo?
 		true
