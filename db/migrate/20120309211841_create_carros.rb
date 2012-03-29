@@ -4,6 +4,7 @@ class CreateCarros < ActiveRecord::Migration
       t.string :nome
       t.string :descricao
       t.float :preco
+      t.integer :prioridade
 
       t.timestamps
     end

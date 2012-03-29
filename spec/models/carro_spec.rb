@@ -44,4 +44,21 @@ describe Carro do
 			@carro.calcula_comissao
 		}.should ter_valor(@comissao)
 	end
+
+	it "não deve ter uma prioridade menor do que 1" do
+		@carro.prioridade = 0
+		@carro.should have_exactly(1).error_on(:prioridade)
+	end
+
+	it "não deve ter uma prioridade maior do que 10" do
+		@carro.prioridade = 0
+		@carro.should have_exactly(1).error_on(:prioridade)
+	end
+
+	(1..10).each do |i|
+		it "deve ser válido com uma prioridade #{i}" do
+			@carro.prioridade = i
+			@carro.should be_valid
+		end
+	end
 end

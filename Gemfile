@@ -3,7 +3,6 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.2'
 gem 'pg'
 gem 'jquery-rails'
-gem 'nifty-generators'
 
 group :assets do
     gem 'sass-rails',   '~> 3.2.3'
@@ -17,6 +16,9 @@ group :development, :test do
     gem 'rspec-rails', '~> 2.6'
     gem 'simplecov', '>= 0.3.2'
     gem 'factory_girl_rails'
+    gem 'ZenTest'
+    gem 'test_notifier'
+    gem 'autotest-notification'
 end
 
 group :test do
