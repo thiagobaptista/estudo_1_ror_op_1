@@ -16,6 +16,7 @@ group :development, :test do
     gem 'database_cleaner'
     gem 'rspec-rails', '~> 2.6'
     gem 'simplecov', '>= 0.3.2'
+    gem 'factory_girl_rails'
 end
 
 group :test do
